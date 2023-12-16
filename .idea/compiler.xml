@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="Gatway-servicee" />
         <module name="config-service" />
         <module name="order-service" />
@@ -20,6 +21,7 @@
       <module name="Gatway-servicee" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
       <module name="inventory-servicee" options="-parameters" />
       <module name="order-service" options="-parameters" />
     </option>
